@@ -1,0 +1,554 @@
+@import url("../css/_global.css");
+ul {
+  padding: 0px;
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 250px;
+}
+
+.flex-data {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.general-section {
+  width: 100%;
+  padding: 30px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background-color: white;
+  background-color: white;
+}
+.navbar::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.408);
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.navbar .contain {
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar .contain .brand .brand-image img {
+  margin-right: 10px;
+}
+.navbar .contain .brand .brand-name .h .h1 {
+  color: orange;
+}
+.navbar .contain .brand .brand-name .h .h2 {
+  color: black;
+}
+.navbar .contain .navbar-nav {
+  flex-direction: row;
+  gap: 20px;
+}
+.navbar .contain .navbar-nav .nav-item a {
+  color: black;
+}
+.navbar .contain .nav-media {
+  flex-direction: row;
+  gap: 20px;
+}
+.navbar .contain .nav-media .nav-item .nav-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  padding-top: 100px;
+}
+.header .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.header .heading .image {
+  flex-direction: row;
+  gap: 10px;
+}
+.header .heading .image img {
+  margin-bottom: 20px;
+  margin-right: 8px;
+}
+.header .heading .image .par1 {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.49);
+  text-transform: capitalize;
+}
+.header .heading .image .par2 {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.header .all {
+  gap: 70px;
+}
+.header .all .div {
+  gap: 30px;
+}
+.header .all .div .in {
+  width: 100%;
+  justify-content: start;
+  flex-direction: column;
+}
+.header .all .div .in h1 {
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  text-align: start;
+}
+.header .all .div .in p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.39);
+  width: 100%;
+}
+
+.sec1 {
+  padding-top: 0px !important;
+}
+.sec1 .row .col-lg-6 .contain {
+  width: 100%;
+  gap: 30px;
+  position: relative;
+}
+.sec1 .row .col-lg-6 .contain .img1 {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 400px;
+}
+.sec1 .row .col-lg-6 .contain .img2 {
+  width: 400px;
+  height: 100%;
+  margin-bottom: 65px;
+}
+.sec1 .row .col-lg-6 .contain2 {
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec1 .row .col-lg-6 .contain2 .div {
+  width: 100%;
+  justify-content: space-between;
+}
+.sec1 .row .col-lg-6 .contain2 .div button {
+  width: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+}
+.sec1 .row .col-lg-6 .contain2 .div p {
+  width: 100px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.464);
+}
+.sec1 .row .col-lg-6 .contain2 .div2 {
+  width: 100%;
+  justify-content: space-between;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .item {
+  flex-direction: column;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .item p {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .item .h {
+  gap: 20px;
+  width: 100%;
+  justify-content: start;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .item .h .h1 {
+  color: red;
+  font-size: 20;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .item .h .h2 {
+  color: rgba(0, 0, 0, 0.43);
+  font-size: 20;
+}
+.sec1 .row .col-lg-6 .contain2 .div2 .h3 {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-top: 45px;
+}
+.sec1 .row .col-lg-6 .contain2 .all3 {
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+}
+.sec1 .row .col-lg-6 .contain2 .all3 p {
+  width: 100%;
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 {
+  width: 100%;
+  justify-content: start;
+  gap: 20px;
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.305);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color .in {
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  border: 1px solid rgba(0, 0, 0, 0.314);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color2 {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.268);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color2 .in {
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border: 1px solid rgba(0, 0, 0, 0.505);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color3 {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.282);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color3 .in {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border: 1px solid rgba(0, 0, 0, 0.505);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color4 {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.348);
+}
+.sec1 .row .col-lg-6 .contain2 .all3 .div3 .color4 .in {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.505);
+}
+.sec1 .row .col-lg-6 .contain2 .div4 {
+  width: 100%;
+  justify-content: start;
+  flex-direction: column;
+}
+.sec1 .row .col-lg-6 .contain2 .div4 .item {
+  flex-direction: row;
+  width: 100%;
+  justify-content: start;
+  gap: 40px;
+}
+.sec1 .row .col-lg-6 .contain2 .div4 .item p {
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.sec1 .row .col-lg-6 .contain2 .div4 .item h1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.sec1 .row .col-lg-6 .contain2 .div4 .button {
+  width: 100%;
+}
+.sec1 .row .col-lg-6 .contain2 .div4 .button button {
+  border-color: rgba(0, 0, 0, 0.299);
+  color: rgba(0, 0, 0, 0.425);
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.sec1 .row .col-lg-6 .contain2 .div5 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+.sec1 .row .col-lg-6 .contain2 .div5 p {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.sec1 .row .col-lg-6 .contain2 .div5 .button {
+  width: 100%;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: start;
+}
+.sec1 .row .col-lg-6 .contain2 .div5 .button .b1 {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  border-color: rgba(0, 0, 0, 0.459);
+}
+.sec1 .row .col-lg-6 .contain2 .div5 .button .b2 {
+  width: 150px;
+  height: 40px;
+  background-color: orangered;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 25px;
+  border: none;
+}
+.sec1 .row .col-lg-6 .contain2 .div5 .button .image {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.245);
+  border-radius: 25px;
+}
+
+.sec2 .heading {
+  width: 100%;
+  justify-content: center;
+}
+.sec2 .heading .item {
+  gap: 60px;
+}
+.sec2 .heading .item button {
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  border-color: orange;
+}
+.sec2 .heading .item p {
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.404);
+  text-transform: uppercase;
+}
+.sec2 .row .col-lg-6 .contai {
+  width: 100%;
+  flex-direction: column !important;
+  gap: 20px;
+  justify-content: center;
+}
+.sec2 .row .col-lg-6 .contai h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+}
+.sec2 .row .col-lg-6 .contai p {
+  color: rgba(0, 0, 0, 0.262);
+  width: 100%;
+  text-align: center;
+}
+.sec2 .row .col-lg-6 .contai .image {
+  width: 100%;
+  justify-content: center;
+}
+
+.sec3 .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.sec3 .heading h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.sec3 .heading button {
+  width: 150px;
+  border-radius: 25px;
+  height: 50px;
+  border-color: rgba(0, 0, 0, 0.153);
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-transform: capitalize;
+}
+.sec3 .row .col-lg-3 .image {
+  position: relative;
+  z-index: 9;
+  flex-direction: column;
+  justify-content: start;
+}
+.sec3 .row .col-lg-3 .image .image2 {
+  position: absolute;
+  content: "";
+  padding: 7px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  top: 15;
+  right: 10;
+  justify-content: center;
+  background-color: white;
+}
+.sec3 .row .col-lg-3 .image .image2 img {
+  width: 30px;
+  height: 20px;
+}
+.sec3 .row .col-lg-3 .image img {
+  width: 100%;
+  height: 300px;
+}
+.sec3 .row .col-lg-3 .image p {
+  text-transform: capitalize;
+  font-size: 13px;
+  width: 100%;
+}
+.sec3 .row .col-lg-3 .image .h {
+  width: 100%;
+  justify-content: start;
+  gap: 15px;
+}
+.sec3 .row .col-lg-3 .image .h .h1 {
+  color: red;
+  font-size: 15px;
+}
+.sec3 .row .col-lg-3 .image .h .h2 {
+  color: rgba(0, 0, 0, 0.358);
+  font-size: 15px;
+}
+
+.sec5 .contain {
+  background: url("../images/products/sec5/big_banner.png") center/cover no-repeat;
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  padding: 100px 20px;
+}
+.sec5 .contain::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.404);
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+.sec5 .contain p {
+  width: 400px;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+.sec5 .contain input {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+.sec5 .contain button {
+  width: 150px;
+  color: black;
+  text-transform: uppercase;
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sec6 .row .col-lg-3 .contain {
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+.sec6 .row .col-lg-3 .contain .image {
+  flex-direction: row;
+  width: 100%;
+}
+.sec6 .row .col-lg-3 .contain .image img {
+  width: 50px;
+  height: 50px;
+}
+.sec6 .row .col-lg-3 .contain .image .p {
+  flex-direction: row;
+}
+.sec6 .row .col-lg-3 .contain .image .p .h1 {
+  color: var(--light-color);
+}
+.sec6 .row .col-lg-3 .contain .image .p .h2 {
+  color: black;
+}
+.sec6 .row .col-lg-3 .contain p {
+  color: rgba(128, 128, 128, 0.582);
+  font-size: 10px;
+}
+.sec6 .row .col-lg-3 .contain .ul {
+  flex-direction: row;
+  width: 100%;
+  gap: 35px;
+}
+.sec6 .row .col-lg-3 .contain2 {
+  flex-direction: column;
+  justify-content: start;
+}
+.sec6 .row .col-lg-3 .contain2 p {
+  font-size: 10px;
+  width: 100%;
+}
+.sec6 .row .col-lg-3 .contain2 h1 {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.footer .par {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+.footer .par::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.234);
+  top: 0;
+  left: 0;
+}
+.footer .par p {
+  color: rgba(128, 128, 128, 0.558);
+  font-size: 10px;
+  margin-top: 30px;
+}/*# sourceMappingURL=productView.css.map */

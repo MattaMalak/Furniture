@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+}
+:root {
+  --primary-color:#E1ECFF; 
+  --secondary-color: #00B1FF;
+  --dark-color: #1A6EFF;
+  --light-color: #FBB03B;
+  --gray-color: #808080;
+  --filter-white: invert(100%) sepia(100%) saturate(0%) hue-rotate(314deg) brightness(107%) contrast(106%);
+  --filter-blue:  invert(66%) sepia(100%) saturate(344%) hue-rotate(133deg) brightness(87%) contrast(91%);
+}
